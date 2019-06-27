@@ -1,6 +1,6 @@
 html{
     font-size: 14px;
-    color: white;
+    color: rgb(175,175,175);
 }
 body{
     margin: 0;
@@ -20,9 +20,9 @@ a{
     width: 1200px;
     margin:0 auto;
 }
+/* 顶部导航 */
 .fast_nav{
-    font-size: 13px;
-    border-bottom: 1px solid white;
+    font-size: 15px;
 }
 .fast_nav>.wrapper::after{
     content: "";
@@ -34,19 +34,27 @@ a{
 }
 .fast_nav>.wrapper>.nav>ul>li{
     float: left;
-    width: 80px;
+    width: 70px;
     text-align: center;
-    align-items: center;
-    height: 70px;
-    line-height: 3em;
+    height: 60px;
+    line-height: 4em;
+    cursor: pointer;
 }
 .fast_nav .nav>ul >li:hover {
     color:#ffffff;
 }
 .fast_nav>.wrapper>.other{
     float: right;
+    height: 60px;
+    width: 80px;
+    text-align: center;
+    line-height: 4em;
 }
 .fast_nav{
-    background-color: black;
+    background-color: rgb(32, 32, 32);
     height: 60px;
+}
+/*图下导航*/
+.content{
+    background-color: #333;
 }
