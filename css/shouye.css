@@ -96,7 +96,9 @@ h1{
 }
 /* 最下方 */
 .xiaall{
-    background-color: #333;
+    background-color: rgb(41, 41, 41);
+    height: 230px;
+    color: #6b6b6b;
 }
 .zuixia{
     margin:40px 190px;
@@ -119,19 +121,28 @@ h1{
     margin-right:20px;
     float:left;
     cursor: pointer;
+    margin-top:5px;
+    margin-bottom: 5px;
 }
+
 .zyou>ul>li:nth-child(5n){
     margin-right: 0;
 }
-.zyou>ul >li:hover {
+.zyou>ul>li:hover {
     color:#ffffff;
 }
 .xia{
     border-top: 1px solid #6b6b6b;
     margin:20px 0px;
-  }
-  .xiaone{
+}
+.xiaone{
+    margin-top: 20px;
     line-height:2em;
-    height: 15px;
-      
-  }
+    height: 20px;
+    font-size: 10px;
+    text-align: center;
+    cursor: pointer;  
+}
+.xiaone>div>span:hover {
+    color:#ffffff;
+}
