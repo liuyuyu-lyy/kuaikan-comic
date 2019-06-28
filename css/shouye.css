@@ -88,7 +88,7 @@ a{
 /* 下方内容 */
 .all{
     margin:40px 180px;
-    height: 1000px;
+    height: 800px;
 }
 h1{
     font-weight: 500;
@@ -96,21 +96,34 @@ h1{
     color: rgb(32, 32, 32);
 }
 .lowl{
-    width: 800px;
+    width: 780px;
 }
-.lowl>ul>li>{
+.lowl>ul>li{
     float: left;
     color: #2b2828;
-    height: 220px;
+    height: 250px;
 }
 .lowl>ul>li>img{
     width: 140px;
-    height: 180px;
-    margin-right: 15px;
+    height: 210px;
+}
+.lowl>ul>li{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.lowl>ul>li:hover{
+    color: #9baecf;
 }
 .lowl>ul>li:nth-child(5n){
     margin-right: 0;
 }
+.lowr{
+    float: left;
+    width:150px;
+    margin-top: -305px;
+    margin-left: 30px;
+}
+
 /* 最下方 */
 .xiaall{
     background-color: rgb(41, 41, 41);
