@@ -64,6 +64,8 @@ a{
 }
 .content.text{
     float: left;
+    width: 1200px;
+    margin:0 auto;
 }
 .text>ul>li{
     float: left;
@@ -89,6 +91,8 @@ a{
 .all{
     margin:40px 180px;
     height: 800px;
+    width: 1200px;
+    margin:0 auto;
 }
 h1{
     font-weight: 500;
@@ -135,6 +139,8 @@ h1{
 }
 .zuixia{
     margin:40px 180px;
+    width: 1200px;
+    margin:0 auto;
 }
 .zzuo{
     float: left;
