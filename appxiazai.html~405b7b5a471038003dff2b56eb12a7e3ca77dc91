@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>快看漫画app-快看漫画</title>
+    <style>
+        .bg{
+            background-image: url(image/app1.jpg);
+            background-size:100% 110%;
+        }
+        .hm{
+            float: left;
+            margin-left: 235px;
+            margin-top: 65px;
+        }
+        .gh{
+            float: left;
+            margin-top: 120px;
+        }
+        .ew{
+            float: left;
+            margin-top: 40px;
+            margin-right: 250px;
+        }
+        .xz{
+            float: left;
+            margin-top: 40px;
+            margin-right: 220px;
+        }
+        .android{
+            margin-left: 58px;
+        }
+        .wz{
+            text-align: center;
+            position: absolute;
+            bottom: 5px;
+            margin-left: 300px;
+            color: white;
+        }
+        .wz.a{
+            text-decoration: none;
+            font-size:14px;
+            color: white;
+        }
+    </style>
+    <link rel="stylesheet" href="css/appxiazai.css">
+</head>
+<body class="bg">
+        <img src="image/logo.jpg" style="margin-left:170px;margin-top:3px;width: 75px;float: left">
+        <div class="fast_nav">
+            <div class="wrapper">
+                <div class="nav">
+                    <ul>
+                        <li style="margin-left: 30px;color: #ffffff">
+                        <b>首页</b></li>
+                        <li>分类</li>
+                        <li>排行榜 </li>
+                        <li>APP下载</li>
+                        <li>我要投稿</li>
+                        <li>动漫</li>
+                        <li>游戏中心</li>
+                        <li>条漫大赛</li>
+                        <li>作者动态</li>
+                    </ul>
+                    <img src="image/hot.JPG" style="margin-left:-8px;width: 35px;float: left;margin-top: 2px;">
+                </div>
+                <div class="other">
+                        <span>登录 | 注册</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hm">
+           <img src="image/app2.png" alt="" width="630px" height="585px">
+        </div>
+        <div>
+          <div class="gh">
+             <img src="image/app3.png" alt="" width="310px" height="85px">
+          </div>
+          <div class="ew">
+             <img src="image/app4.png" alt="">
+             <p style="text-align: center; color: rgb(184, 184, 184); font-size: 14px; margin-top: 11px;">扫码快捷安装客户端</p>
+          </div>
+          <div class="xz">
+              <span>
+                  <a href="https://itunes.apple.com/cn/app/kuai-kan-man-hua/id906936224">
+                    <img src="image/app5.png" alt="" width="35%" height="12%">
+                  </a>
+              </span>
+              <span class="android">
+                <a href="https://app.kkmh.com/Kuaikan_release_official.apk">
+                    <img src="image/app6.png" alt="" width="35%" height="12%">
+                </a>
+              </span>
+          </div>
+        </div>
+    </div>
+    <div class="wz">
+        <div>
+            <a href="https://www.kuaikanmanhua.com/prove/servicelicense/"> 京ICP证16031号</a>
+            <span> |</span>
+            <a href="https://static3w.kuaikanmanhua.com/static/img/culture17_small_8c63a79.jpg" > 网络文化经营许可证 京网文 [2016] 2280-262号</a>
+        </div>
+        <div>
+            <a href="https://www.kuaikanmanhua.com/prove/businesslicense/"> 营业执照 </a>
+            <span>|</span>
+            <a href="https://www.kuaikanmanhua.com/prove/showlicense/">  营业性演出许可证 京演（机构）[2018] 3702号</a>
+            <span>|</span>
+            <a href="https://www.kuaikanmanhua.com/prove/publicationlicense/"> 出版物经营许可证 新出发 京批 字第 直160194号</a>
+            <span>|</span>
+            <a href="https://www.kuaikanmanhua.com/prove/foodlicense/"> 食品经营许可证 JY11105092072844</a>
+        </div>
+    </div>
+</body>
+</html>
