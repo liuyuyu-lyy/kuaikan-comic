@@ -98,9 +98,9 @@ h1{
 .lowl{
     width: 800px;
 }
-.lowl>ul>li{
+.lowl>ul>li>{
     float: left;
-    color: #6b6b6b;
+    color: #2b2828;
     height: 220px;
 }
 .lowl>ul>li>img{
@@ -110,9 +110,6 @@ h1{
 }
 .lowl>ul>li:nth-child(5n){
     margin-right: 0;
-}
-.lowl>li>p{
-    text-align: right;
 }
 /* 最下方 */
 .xiaall{
