@@ -8,6 +8,7 @@ body{
 ul,h1,h2,h3{
     margin:0;
     padding: 0;
+    
 }
 ul{
     list-style: none;
@@ -32,13 +33,16 @@ a{
 .fast_nav.nav{
     float:left;
 }
+.fast_nav>.wrapper>.nav>ul{
+    margin-left: 110px;
+}
 .fast_nav>.wrapper>.nav>ul>li{
     float: left;
-    width: 70px;
     text-align: center;
     height: 60px;
     line-height: 4em;
     cursor: pointer;
+    margin-left: 30px;
 }
 .fast_nav .nav>ul >li:hover {
     color:#ffffff;
@@ -58,3 +62,76 @@ a{
 .content{
     background-color: #333;
 }
+.content.text{
+    float: left;
+}
+.text>ul>li{
+    float: left;
+    width: 70px;
+    text-align: center;
+    height: 60px;
+    line-height: 4em;
+    cursor: pointer;
+}
+.text::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.text>ul >li:hover {
+    color:#ffffff;
+}
+.text{
+    width: 1200px;
+    margin:0 auto;
+}
+/* 下方内容 */
+.all{
+    margin:40px 190px;
+}
+h1{
+    font-weight: 500;
+    font-size: 25px;
+    color: rgb(32, 32, 32);
+}
+/* 最下方 */
+.xiaall{
+    background-color: #333;
+}
+.zuixia{
+    margin:40px 190px;
+}
+
+.zzuo{
+    float: left;
+}
+.zyou{
+    float: right;
+    width: 500px;
+}
+.zhong::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.zyou>ul>li{
+    width: 80px;
+    margin-right:20px;
+    float:left;
+    cursor: pointer;
+}
+.zyou>ul>li:nth-child(5n){
+    margin-right: 0;
+}
+.zyou>ul >li:hover {
+    color:#ffffff;
+}
+.xia{
+    border-top: 1px solid #6b6b6b;
+    margin:20px 0px;
+  }
+  .xiaone{
+    line-height:2em;
+    height: 15px;
+      
+  }
