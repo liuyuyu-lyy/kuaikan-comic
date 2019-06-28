@@ -1,0 +1,82 @@
+/* 样式 */
+body{
+    font-weight:bold;
+    font-size:25px;
+    margin-left:250px; 
+    }
+    .tupian{
+        margin-top:80px;
+    }
+    .ke01{
+        margin-top:-750px;
+        float:right;
+        padding:250px;
+        text-align:center;
+    }
+    .ke02{
+        margin-bottom: 0px;
+        height :100px;
+        width: 100px;
+    }
+    html{
+        font-size: 14px;
+        color: rgb(175,175,175);
+    }
+    body{
+        margin: 0;
+    }
+    ul,h1,h2,h3{
+        margin:0;
+        padding: 0;
+        
+    }
+    ul{
+        list-style: none;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    .wrapper{
+        width: 1200px;
+        margin:0 auto;
+    }
+    /* 顶部导航 */
+    .fast_nav{
+        font-size: 15px;
+    }
+    .fast_nav>.wrapper::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .fast_nav.nav{
+        float:left;
+    }
+    .fast_nav>.wrapper>.nav>ul{
+        margin-left: 110px;
+    }
+    .fast_nav>.wrapper>.nav>ul>li{
+        float: left;
+        text-align: center;
+        height: 60px;
+        line-height: 4em;
+        cursor: pointer;
+        margin-left: 30px;
+    }
+    .fast_nav .nav>ul >li:hover {
+        color:#ffffff;
+    }
+    .fast_nav>.wrapper>.other{
+        float: right;
+        height: 60px;
+        width: 80px;
+        text-align: center;
+        line-height: 4em;
+    }
+    .fast_nav{
+        background-color: rgb(32, 32, 32);
+        height: 60px;
+    }
+    
+    
