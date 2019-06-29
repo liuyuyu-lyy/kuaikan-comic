@@ -1,0 +1,135 @@
+ul{
+    margin: 0;
+    padding :0;
+    list-style: none;
+    }
+body{
+    background-color:black;
+    margin: 10;
+    text-align: center;
+}
+/*    * 快看 *    */
+.kk{
+    margin: 0;
+}
+.kk>ul>img{
+margin:0;
+float: left;
+}
+.kk>ul>a {
+    color:white;
+    float: right;
+    font-size: 20;
+
+}
+/*    * 快看结束 *    */
+/*我要投稿*/
+.tougao {
+    color:white;
+    font-size:30px;
+    margin:8;
+    width: 100%;
+    margin-left: 240;
+    margin-bottom: 10em;
+    text-align: center;
+
+}
+.tougao > ul > li {
+    float: left;
+    height: 50px;
+    background-color:rgb(63, 12, 12);
+    width:200px;
+    margin-right:60px;
+  }
+  .tougao > ul > li:nth-child(3){
+    margin-right: 200;
+  }
+  .tougao > ul > li:nth-child(1){
+    width:200px;
+  }
+/*我要投稿结束*/
+
+/*////////////大赛背景///////////////*/
+.ds{
+    color: white;
+    font-size: 20;
+
+}
+.ds>ul>li:nth-child(1)>{
+    font-size: 30;
+}
+
+/*////////////大赛背景结束///////////////*/
+.shijian{
+    width: 100%;
+}
+.shijian>img {
+    width: 100%;
+}
+/* //////////作者图片介绍/////////////// */
+.tuijian {
+    color: white;
+    margin-bottom: 3em;
+    text-align: center;
+  }
+.tuijian > ul::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  /* 1200 = (300 * 3) + 10*3 + 270px  */
+  .tuijian > ul> li {
+    float: left;
+    height: 350px;
+    background-color:rgb(26, 25, 25);
+    width: 200px;
+    margin-left: 40px;
+  }
+  .tuijian > ul:nth-child(1)> li>div:nth-child(1){
+    margin-right: 10;
+  }
+  .tuijian > ul >li>div:nth-child(1){
+    width:100px;
+  }
+  /* //////////作者图片介绍结束/////////////// */
+
+
+
+
+.zuozhemc::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.zuozhemc{
+    font-size: 20px;
+    float: left;
+    width: 100%;
+    text-align: center;
+        height: 50px;
+    line-height: 3em;
+}
+.zuozhemc>ul>span{
+    float: left;
+    margin-left: 130px;
+}
+.sf>ul>span{
+    float: left;
+    margin-left: 100px ;
+    
+}
+.sf::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.sf{
+    font-size: 18px;
+    float: left;
+    width: 120%;
+    /*text-align: center;*/
+    height: 40px;
+    line-height: 1em;
+}
