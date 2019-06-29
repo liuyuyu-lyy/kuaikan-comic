@@ -64,8 +64,7 @@ a{
 }
 .content.text{
     float: left;
-    width: 1200px;
-    margin:0 auto;
+
 }
 .text>ul>li{
     float: left;
